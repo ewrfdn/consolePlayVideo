@@ -191,7 +191,12 @@ def main():
     txtSavePath=path+"\\txt\\"
     textImageSavePath=path+"\\strimg\\"
     path+="\\1.mp4"
-    
+    if(not os.path.exists(imgSavePath)):
+       os.makedirs(imgSavePath)
+    if(not os.path.exists(textImageSavePath)):
+       os.makedirs(textImageSavePath)
+    if(not os.path.exists(txtSavePath)):
+       os.makedirs(txtSavePath)
     height=180;
     #try:
     #    _thread.start_new_thread(cutFrame,(path,imgSavePath))
