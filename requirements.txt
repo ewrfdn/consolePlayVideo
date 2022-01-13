@@ -7,7 +7,7 @@ imageio-ffmpeg==0.4.2
 moviepy==1.0.3
 numpy==1.19.1
 opencv-python==4.3.0.36
-Pillow==7.2.0
+Pillow==9.0.0
 pip==20.1.1
 proglog==0.1.9
 pygame==1.9.6
