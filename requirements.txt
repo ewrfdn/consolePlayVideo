@@ -12,6 +12,6 @@ pip==20.1.1
 proglog==0.1.9
 pygame==1.9.6
 requests==2.24.0
-setuptools==47.1.0
+setuptools==65.5.1
 tqdm==4.48.0
 urllib3==1.25.10
